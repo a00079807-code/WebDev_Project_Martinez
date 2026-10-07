@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color:green;
+    font-variant: inherit;
+    font-size: large;
+}
+h1, h2, h3, h4 {
+    font-family: 'isometra', sans-serif;
+}
