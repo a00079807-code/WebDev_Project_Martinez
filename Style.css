@@ -1,17 +1,78 @@
+*{
+    font-size: xx-small;
+    font-family: 'isometra', sans-serif;
+    text-align: center;
+    
+    
+}
+body {
+    background-color: #1F1F1F;
+    text-align: center;
+    color: rgb(104, 52, 245);
+    margin: 20px;
+}
+header h1 {
+    color: crimson;
+    font-size: xx-large;
+    
+}
+
+header h4{
+          /* Change text color to blue */
+  font-size: 18px;     /* Increase the font size */
+} 
 h1 {
-    color: red;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid #555;
+    color: crimson;
+    text-align: center;
 }
 
 h3 {
     color: crimson;
     font-variant: inherit;
-    font-size: large;
+    text-align: center;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'isometra', sans-serif;
+    text-align: center;
+    
+}
+
+nav a {
+    color: rgba(255, 98, 0, 0.783);   
+    margin: 40px;     
+    text-decoration: underline;
+  
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+footer {
+    color: rgb(255, 0, 119);   
+    background-color: aqua;
+    margin: 20px; 
+}
+
+section > h2 
+{
+    margin-top: 20px;
+    border-left: 10px solid #004080;  
+}
+
+#Purple {
+    text-align: center !important;
+    color: rgb(239, 0, 175);
+}
+
+#BackgroundID { 
+    background-image: url('videoframe_1396955.png');
+    background-size: cover;
+    background-position: center;
 }
 body {
-    background-color: chocolate;
+    background-image: url('imagebackgroundwalll.jpg');
+    background-size: cover;
+    background-position: center;
 }
