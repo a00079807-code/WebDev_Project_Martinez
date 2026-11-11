@@ -7,7 +7,7 @@
 }
 
 header h1 {
-    color: crimson;
+    color: rgb(0, 0, 0);
     font-size: xx-large;
     
 }
@@ -83,6 +83,6 @@ body {
   
     font-size: 1.125rem;   /* Increases text size to 18px for better readability */
 
-    background-color: #005fcc; /* High-contrast background color */
+    background-color: #626262; /* High-contrast background color */
     color: #ffffff;        /* High-contrast text color */
 }
