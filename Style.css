@@ -1,31 +1,32 @@
 *{
-    font-size: xx-small;
+    font-size: small;
     font-family: 'isometra', sans-serif;
     text-align: center;
-    
+    color: rgb(0, 0, 0);
     
 }
+
+header h1 {
+    color: crimson;
+    font-size: xx-large;
+    
+}
+header h4{
+          
+  font-size: 18px;     
+} 
+h1 {
+    border-bottom: 4px solid #008d9f;
+}    
+/*    
 body {
     background-color: #1F1F1F;
     text-align: center;
     color: rgb(104, 52, 245);
     margin: 20px;
 }
-header h1 {
-    color: crimson;
-    font-size: xx-large;
-    
-}
 
-header h4{
-          /* Change text color to blue */
-  font-size: 18px;     /* Increase the font size */
-} 
-h1 {
-    border-bottom: 3px solid #555;
-    color: crimson;
-    text-align: center;
-}
+
 
 h3 {
     color: crimson;
@@ -70,9 +71,18 @@ section > h2
     background-image: url('videoframe_1396955.png');
     background-size: cover;
     background-position: center;
-}
+}*/
 body {
     background-image: url('imagebackgroundwalll.jpg');
     background-size: cover;
     background-position: center;
+}
+#ABOUT_PAGE {
+    display: inline-block; /* Allows padding and sizing to work properly */
+    padding: 2rem 4rem;    /* Expands the clickable area around the text */
+  
+    font-size: 1.125rem;   /* Increases text size to 18px for better readability */
+
+    background-color: #005fcc; /* High-contrast background color */
+    color: #ffffff;        /* High-contrast text color */
 }
