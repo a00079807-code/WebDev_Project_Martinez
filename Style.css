@@ -4,11 +4,13 @@
     text-align: center;
     color: rgb(0, 0, 0);
     
+    
 }
 
 header h1 {
     color: rgb(0, 0, 0);
     font-size: xx-large;
+    
     
 }
 header h4{
@@ -85,4 +87,58 @@ body {
 
     background-color: #626262; /* High-contrast background color */
     color: #ffffff;        /* High-contrast text color */
+    
+}
+a:hover{
+    color: aquamarine;
+    transition-property: all;
+    transition-duration: 1800ms;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+/* Base & Mobile Layout (< 600px) */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.container header,
+.container main,
+.container article {
+  width: 100%;
+  text-align: center;
+}
+
+/* Style the images inside <article> into a clean responsive gallery */
+.container article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.container article img {
+  width: 100%;          /* 1 image per row on mobile */
+  height: 220px;        /* Makes every photo the exact same height */
+  object-fit: cover;    /* Crops neatly without stretching/squishing */
+  border-radius: 12px;  /* Smooth rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Tablet Layout (600px to 1024px) - 2 images side-by-side */
+@media only screen and (min-width: 600px) {
+  .container article img {
+    width: calc(50% - 15px);
+  }
+}
+
+/* Desktop Layout (> 1024px) - 4 images in one clean row */
+@media only screen and (min-width: 1025px) {
+  .container article img {
+    width: calc(25% - 15px);
+  }
 }
